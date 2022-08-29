@@ -1,0 +1,11 @@
+form {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: calc(0.5rem + 1vw);
+}
+
+.title-contacto {
+    text-align: center;
+    color: rgb(246, 67, 67);
+    font-size: calc(1rem + 1vw);
+}

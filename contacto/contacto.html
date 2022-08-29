@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilosInicio.css">
+    <link rel="stylesheet" href="estilosContacto.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <title>Contacto</title>
+</head>
+<body>
+    <header class="contenedor-nav">
+        <div class="header-superior">
+            <img class="logo" src="../imagenes/logo.png" alt="logo-gamerstore">
+        </div>
+        <nav class="centro header-inferior">
+            <div class="opcion texto-opcion">
+               <a class="a-opcion" href="../index.html">Inicio</a> 
+            </div>
+            <div class="opcion texto-opcion">
+                <a class="a-opcion" href="../productos/productos.html">Productos</a> 
+            </div>
+            <div class="opcion texto-opcion">
+                <a class="a-opcion" href="../nosotros/nosotros.html">Nosotros</a> 
+            </div>
+            <div class="opcion texto-opcion">
+                <a class="a-opcion" href="contacto.html">Contacto</a> 
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1 class="title-contacto">Contactate con nosotros!</h1>
+        <section>
+            <form>
+                <h3>Para eso necesitamos tus datos!</h3>
+                <div>
+                    <label for="usuario" class="label_form">Nombre de usuario:</label>
+                </div>
+                    <input id="usuario" type="text" name="registro" required placeholder="nombre">
+                <div>
+                    <label for="contraseña"  class="label_form">Tel:</label>
+                </div>
+                    <input id="contraseña" type="tel" name="registro" required placeholder="Ej: 1145763423">
+                <div>
+                    <label for="email"  class="label_form">Email:</label>
+                </div>
+                    <input id="email" type="email" name="registro" required placeholder="email">
+                <div>
+                    <label for="textArea"  class="label_form">Escribinos tu consulta:</label>
+                </div>
+                <div>
+                    <textarea name="registro" id="textArea" cols="30" rows="10" placeholder="dejanos tu consulta"></textarea>
+                </div>
+                <div>
+                    <input type="submit" name="registro" class="btn btn-dark" >
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <p>©Derechos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>
